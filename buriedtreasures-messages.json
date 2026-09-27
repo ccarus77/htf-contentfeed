@@ -1,14 +1,14 @@
 {
   "version": 1,
   "messages": [
-    "I want you to forget EVERYTHING you know about bread.. and I mean everything.. got it? Okay, so I have this invention, its called 'Bread' -Norm M",
-    "I went to the restroom at a coffee shop today. They had a sign that said.. 'DONT FLUSH ANYTHING EXCEPT TOILET PAPER'.. So I was like, what am I supposed to do with all this SH*T?! -Martin P",
+    "I want you to forget everything you know about bread.. and I mean EVERYTHING.. got it? Okay, so.... I have this new invention, its called 'Bread' -Norm M",
+    "I went to the restroom at a coffee shop today. They had a sign that said.. 'DONT FLUSH ANYTHING EXCEPT TOILET PAPER'.. So I was like, what am I supposed to do with all this poop?! -Martin P",
     "I installed a skylight in my apartment... the people who live above me are furious! -Steven W",
     "I think the worst time to have a heart attack is during a game of charades. -Demetri M",
     "I haven't spoken to my wife in years. I didn't want to interrupt her. -Rodney D",
     "I love being married. It's so great to find that one special person you want to annoy for the rest of your life. -Rita R",
-    "My 4-yr.-old gave me a handmade card for Father’s Day. Maybe for Christmas I’ll draw him a picture of some toys. -Jim G",
-    "I was playing chess with my friend and he said, ‘Let’s make this interesting.’ So we stopped playing chess. -Matt K",
+    "My 4-yr.-old gave me a handmade card for Father's Day. Maybe for Christmas I'll draw him a picture of some toys. -Jim G",
+    "I was playing chess with my friend and he said, 'Lets make this interesting.' So we stopped playing chess. -Matt K",
     "I needed a password with eight characters so I picked Snow White and the Seven Dwarves. -Nick H",
     "Have you ever noticed that anybody driving slower than you is an idiot, and anyone going faster than you is a maniac? -George C",
     "I started dating a zookeeper, but it turned out he was a cheetah. -Lorna T",
@@ -17,7 +17,7 @@
     "People say, 'I'm taking it one day at a time.' So is everybody. That's how time works. -Hannibal B",
     "Working at a JobCentre has to be a tense job. If you get fired, you still have to come in the next day. -Adam R",
     "I tried to steal spaghetti from the shop, but the female guard saw me and I couldn't get pasta. -Masai G",
-    "Traveling with kids is tough. My best advice is don’t do it. -Tom S",
+    "Traveling with kids is tough. My best advice is don't do it. -Tom S",
     "Did you know that Planned Parenthood is for people that don't plan things out at all. -Dave C",
     "Anybody that says words hurt has never been punched in the face. Words hurt when you write them on a brick. -Chris R",
 
@@ -36,7 +36,6 @@
     
     
     
-    "%PLAYER_NAME% if you're reading this, you owe someone an apology.",
     "%PLAYER_NAME% lowers the music volume to see better",
     "Did you know, %PLAYER_NAME% has a secret TikTok account.",
 
@@ -54,12 +53,13 @@
     "Not every season of life is meant for progress. Some are meant for rest.",
     "Sometimes the most romantic thing someone can say is 'I remembered you liked this.'",
     "It's a beautiful thing when someone makes you feel wanted without ever making you question it.",
-    "Make time for the people you love.",
+    "Make time for the people you love, and cherish the people that love you.",
+    "It's important to know who is giving the advice. Example: Healthy relationship advice from a single person; Financial advice from someone poorer; etc",
     "A mistake becomes more expensive the longer you refuse to admit it",
-    "People often remember how you treated them longer than they remember what you said",
-    "Not everyone who leaves your life was meant to stay in it forever",
-    "Someone else having more does not mean you have less",
-    "You are allowed to have standards. Other people are allowed to decide they do not want to meet them",
+    "People often remember how you treated them longer than they remember what you said.",
+    "Not everyone who leaves your life were meant to stay in it forever",
+    "Someone else having 'more' does not mean you have less.",
+    "You are allowed to have standards. Other people are allowed to decide they don't want to meet them",
     
   ]
 }
