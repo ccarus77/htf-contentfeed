@@ -11,6 +11,32 @@ This repository is public on purpose: the mods fetch anonymously, so a private r
 | File | Used by | What it is |
 | --- | --- | --- |
 | `buriedtreasures-messages.json` | BuriedTreasures (`Memos.MessagesUrl`) | The pool of short notes a Memo can carry. |
+| `buriedtreasures.config` | BuriedTreasures (`CloudSettings`, fixed URL) | Setting values forced on every player. |
+
+## `buriedtreasures.config`
+
+```json
+{
+  "version": 1,
+  "settings": {
+    "TreasureChests.Reward": 2500,
+    "Bottle.SpawnEnabled": true,
+    "Memos.PlayerMessagesEnabled": false
+  }
+}
+```
+
+- A key is where the setting is declared in the mod's `Settings.cs`, `Class.Field` -- e.g. `Bottle.SpawnEnabled`, not
+  the .cfg's `[Bottle Spawn] Enabled`. That name exists in every build, including Release builds that don't put the
+  setting in the .cfg at all.
+- A value is text, a number or `true`/`false`, written as the .cfg would write it; it's clamped to the setting's range.
+  A value that doesn't parse is logged and ignored.
+- **A listed value beats every player's own .cfg** (and the host's, which is what clients get). Only list what you
+  mean to force on everyone; leave a key out to let players set it.
+- `MessagesApi.SigningSecret` is the player-message service's signing secret; absent keeps player-written notes off.
+  Anything here is public.
+- The mod caches the last good download and loads it before anything reads a setting; a fresh download replaces it a
+  few seconds into startup.
 
 ## `buriedtreasures-messages.json`
 
